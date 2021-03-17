@@ -1,5 +1,5 @@
 # Location
-Experimental code to find street name given a location and bearing. Done as part of an appiction for a job that I failed to get, so may well be rubbish, but some of the algorithms are interesting.
+Experimental code to find street name given a location and bearing. Done as part of an application for a job that I failed to get, so may well be rubbish, but some of the algorithms are interesting.
 
 The program reads street data using a hard-wired file name, RoadData.csv. The file is assumed to contain 4 commaseparated
 fields per line, with the first line containing the field names. In the remaining lines, the
