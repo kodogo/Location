@@ -1,5 +1,5 @@
 # Location
-Experimental code to find street name given a location and bearing. Done as part of an application for a job that I failed to get, so may well be rubbish, but some of the algorithms are interesting.
+Experimental code to find street name given a location and bearing. Done as part of an application for a job that I failed to get, so may well be rubbish, but some of the algorithms are interesting, especially the PMR wuadtree.
 
 The program reads street data using a hard-wired file name, RoadData.csv. The file is assumed to contain 4 commaseparated
 fields per line, with the first line containing the field names. In the remaining lines, the
@@ -36,12 +36,15 @@ for a large number of segments.
 
 The fourth method is the most interesting - it's an experiment with the use of a PMR
 quadtree structure to speed up the search, as described here:
+
 • Erik Hoel and Hanan Samet, "Efficient Processing of Spatial Queries in Line Segment
 Databases", Advances in Spatial Databases - 2nd Symp., SSD '91, (O. Gunther and H. J. Schek,
 eds.), Lecture Notes in Computer Science 525, Springer-Verlag, Berlin, 1991, 237-256.
+
 • G. R. Hjaltason and H. Samet, "Ranking in spatial databases", in Advances in Spatial Databases -
 4th Symposium, SSD'95, M. J. Egenhofer and J. R. Herring, Eds., Lecture Notes in Computer
 Science 951, Springer-Verlag, Berlin, 1995, 83-95.
+
 • Gisli Hjaltason and Hanan Samet, "Speeding Up Construction of PMR Quadtree-Based Spatial
 Indexes", The VLDB Journal, 11 (2002) 2, pp. 109-137. Springer-Verlag.
 
